@@ -80,9 +80,6 @@ Esta prueba de concepto tiene un agregado, y es que al cargar un archivo usando 
 - [AWSHelper.cs](Helpers/AWSHelper.cs): Contiene los métodos para operar las funcionalidades de carga y obtención de objetos desde S3.
 
 #
-## Helper
-El archivo [Helper.tsx](src/helpers/Helper.tsx) tiene los métodos de consulta al API de prueba de concepto.
-
 ## *Frontend de carga de archivos*
 El proyecto de backend para carga de archivos lo pueden encontrar en este link: [WebFileDemo](https://github.com/chelobone/frontend-webfiledemo)
 
