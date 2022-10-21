@@ -14,7 +14,7 @@ namespace WebFileLoader.Controllers
     [ApiController]
     public class FileController : ControllerBase
     {
-        private const long MaxFileSize = 10L * 1024L * 1024L * 1024L; // 10GB, adjust to your need
+        private const long MaxFileSize = 10L * 1024L * 1024L * 1024L; // 10GB, ajustar
 
         private readonly long _fileSizeLimit;
         private readonly ILogger<FileController> _logger;
@@ -23,8 +23,6 @@ namespace WebFileLoader.Controllers
         private readonly IAWSConfig _appConfiguration;
         private readonly IAWSHelper _aws3Services;
 
-        // Get the default form options so that we can use them to set the default 
-        // limits for request body data.
         private static readonly FormOptions _defaultFormOptions = new FormOptions();
 
         public FileController(ILogger<FileController> logger, IConfiguration config, IAWSConfig appConfiguration)
